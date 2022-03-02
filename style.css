@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+header{
+  background-image: linear-gradient(to bottom,#0a2241,#183d6b, #1E4D87); 
+}
+
 body {
   font-size: 100%;
   background-image: linear-gradient(to bottom, rgb(21, 64, 117) , #2a5e9e , #336cb1);
@@ -55,14 +59,15 @@ nav > a {
   font-size: 18px;
   padding: 8px;
   margin: auto;
+  transition-duration: 0.7s;
 }
 
 nav >a:hover {
-  background-color: #0d3d77af;
+  background-color:#333386;
   color: white;
   border-radius: 8px;
   padding: 10px;
-  transition: 1s;
+  
 }
 
 .conteudo {
@@ -108,16 +113,16 @@ nav >a:hover {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #2F2325;
+  color: #27232f;
 }
 
-.conteudo-principal-escrito-botao:hover {
-  transition: 1s;
+.conteudo-principal-escrito-botao {
+  transition-duration: 1s;
 }
 
 
 .conteudo-principal-escrito-botao:hover {
-  background-color: rgba(236, 214, 196, 0.53);
+  background-color: rgba(200, 195, 218, 0.53);
 }
 
 .conteudo-principal-imagem {
